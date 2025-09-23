@@ -1,0 +1,73 @@
+2025-09-17 20:48:46,447 - MHRE - ERROR - Failed to initialize LLM: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-09-17 20:48:46,490 - MHRE - INFO - MHRE Agent initialized with config: MHREConfig(llm_model='llama3', llm_temperature=0.7, llm_max_tokens=2048, llm_timeout=30, population_size=10, max_generations=50, elite_ratio=0.3, mutation_rate=0.1, crossover_rate=0.8, alpha=10, pareto_ini=28000, kappa=0.05, small_value=1e-07, L=5, nbitems=250, num_objectives=2, num_runs=10, num_iterations=100, use_parallel=True, max_workers=4, memory_limit_gb=8.0, adaptive_alpha=True, adaptive_kappa=True, adaptive_population=True)
+2025-09-17 20:50:03,541 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 20:50:04,317 - MHRE - INFO - MHRE Agent initialized with config: MHREConfig(llm_model='llama3', llm_temperature=0.7, llm_max_tokens=2048, llm_timeout=30, population_size=10, max_generations=50, elite_ratio=0.3, mutation_rate=0.1, crossover_rate=0.8, alpha=10, pareto_ini=28000, kappa=0.05, small_value=1e-07, L=5, nbitems=250, num_objectives=2, num_runs=10, num_iterations=100, use_parallel=True, max_workers=4, memory_limit_gb=8.0, adaptive_alpha=True, adaptive_kappa=True, adaptive_population=True)
+2025-09-17 20:55:18,831 - MHRE - INFO - Initializing GSES population...
+2025-09-17 20:56:49,589 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 20:58:45,368 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:02:46,134 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:02:46,340 - MHRE - INFO - MHRE Agent initialized with config: MHREConfig(llm_model='llama3', llm_temperature=0.7, llm_max_tokens=2048, llm_timeout=30, population_size=10, max_generations=50, elite_ratio=0.3, mutation_rate=0.1, crossover_rate=0.8, alpha=10, pareto_ini=28000, kappa=0.05, small_value=1e-07, L=5, nbitems=250, num_objectives=2, num_runs=10, num_iterations=100, use_parallel=True, max_workers=4, memory_limit_gb=8.0, adaptive_alpha=True, adaptive_kappa=True, adaptive_population=True)
+2025-09-17 21:02:47,350 - MHRE - INFO - [CYCLE] Starting GSES Cycle 0
+2025-09-17 21:02:47,352 - MHRE - INFO - Initializing GSES population...
+2025-09-17 21:04:14,367 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:05:27,741 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:07:03,359 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:08:25,173 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:09:56,575 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:11:26,858 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:12:50,211 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:14:21,323 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:16:07,247 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:17:48,017 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:17:48,020 - MHRE - INFO - OK Initialized population with 10 individuals
+2025-09-17 21:17:48,021 - MHRE - INFO - Standardization phase - validating population...
+2025-09-17 21:17:48,022 - MHRE - INFO - OK Standardized 10/10 individuals
+2025-09-17 21:17:48,023 - MHRE - INFO - Evaluation phase - assessing population fitness...
+2025-09-17 21:17:48,387 - MHRE - INFO - OK Evaluated population - Best fitness: 0.5200
+2025-09-17 21:17:48,387 - MHRE - INFO - Selection phase - choosing elite strategies...
+2025-09-17 21:19:10,554 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:20:38,944 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:22:12,573 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:24:17,064 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:26:10,115 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:27:58,452 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:29:14,864 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-09-17 21:29:14,864 - MHRE - INFO - OK Selected 3 elites, generated 10 next generation
+2025-09-17 21:29:14,864 - MHRE - INFO - [COMPLETE] GSES Cycle 1 completed in 1587.51s
+2025-09-17 21:29:14,864 - MHRE - INFO -    Best fitness: 0.5200
+2025-09-17 21:29:14,870 - MHRE - INFO -    Best strategy: cooperative_evolution
+2025-09-17 21:31:04,959 - MHRE - ERROR - Error loading problem data: the number of columns changed from 2 to 1 at row 2; use `usecols` to select a subset and avoid this error
+2025-09-17 21:31:04,959 - MHRE - INFO - Generating synthetic problem data...
+2025-09-17 21:31:04,981 - MHRE - INFO - Generated synthetic data - 250 items, capacity: 6206
+2025-09-17 21:31:04,986 - MHRE - INFO - Setting up Cython environment...
+2025-09-17 21:31:04,988 - MHRE - INFO - Cython version: 3.1.2
+2025-09-17 21:31:04,990 - MHRE - INFO - Running baseline comparison...
+2025-09-17 21:31:04,992 - MHRE - INFO - Running MOACP with: alpha=10, kappa=0.05, L=5
+2025-09-17 21:31:05,223 - MHRE - INFO - MOACP completed in 0.11s, Hypervolume: 3691134.73
+2025-09-17 21:31:05,224 - MHRE - INFO - Baseline results: 0.11s, HV: 3691134.73
+2025-09-17 21:31:05,224 - MHRE - INFO - Running MOACP with: alpha=8, kappa=0.03, L=4
+2025-09-17 21:31:05,339 - MHRE - INFO - MOACP completed in 0.11s, Hypervolume: 3934069.04
+2025-09-17 21:31:05,340 - MHRE - INFO - Running MOACP with: alpha=12, kappa=0.07, L=6
+2025-09-17 21:31:05,441 - MHRE - INFO - MOACP completed in 0.10s, Hypervolume: 4341716.09
+2025-09-17 21:31:05,443 - MHRE - INFO - Running MOACP with: alpha=15, kappa=0.09, L=7
+2025-09-17 21:31:05,539 - MHRE - INFO - MOACP completed in 0.10s, Hypervolume: 4263285.09
+2025-09-17 21:34:59,955 - MHRE - INFO - Setting up MHRE-Cython integration environment...
+2025-09-17 21:34:59,973 - MHRE - INFO - Created directory: multiobjectives
+2025-09-17 21:34:59,975 - MHRE - INFO - Downloading data files from your repository...
+2025-09-17 21:35:01,194 - MHRE - INFO - Downloaded: 250.2.txt
+2025-09-17 21:35:01,765 - MHRE - INFO - Downloaded: Weights_2obj_FQ200.txt
+2025-09-17 21:35:02,533 - MHRE - INFO - Downloaded: 250.2_Results.txt
+2025-09-17 21:35:02,553 - MHRE - ERROR - Error loading data: the number of columns changed from 2 to 1 at row 2; use `usecols` to select a subset and avoid this error
+2025-09-17 21:35:02,553 - MHRE - INFO - Generated synthetic 250.2 problem - Capacity: 6206
+2025-09-17 21:35:02,563 - MHRE - INFO - Running Baseline MOACP with parameters: {'alpha': 10, 'kappa': 0.05, 'L': 5, 'small_value': 1e-07}
+2025-09-17 21:35:02,695 - MHRE - INFO - Baseline completed in 0.13s
+2025-09-17 21:35:02,695 - MHRE - INFO - Hypervolume: 17092640.20
+2025-09-17 21:35:02,698 - MHRE - INFO - Solutions: 4
+2025-09-17 21:35:02,700 - MHRE - INFO - Running MHRE-Optimized MOACP with parameters: {'alpha': 15, 'kappa': 0.075, 'L': 7, 'small_value': 1e-06, 'reasoning': "To enhance exploration and exploitation, I've increased alpha to 15, which allows for a more diverse initial population. This will help the cooperative evolution strategy identify a broader range of promising solutions. By setting kappa to 0.075, we're emphasizing the importance of exploring different regions of the objective space. The local search intensity L is set to 7, which balances exploration and exploitation. Finally, I've reduced small_value to 1e-6 to improve numerical stability while allowing for a more nuanced exploration of the Pareto front."}
+2025-09-17 21:35:02,840 - MHRE - INFO - MHRE-Optimized completed in 0.14s
+2025-09-17 21:35:02,841 - MHRE - INFO - Hypervolume: 12889097.94
+2025-09-17 21:35:02,842 - MHRE - INFO - Solutions: 4
+2025-09-17 21:35:02,848 - MHRE - INFO -    Hypervolume improvement: -24.6%
+2025-09-17 21:35:02,848 - MHRE - INFO -    Time ratio: 1.05x
+2025-09-17 21:35:02,848 - MHRE - INFO -    Additional solutions: 0
+2025-09-17 21:35:06,021 - MHRE - INFO - Performance comparison saved to: mhre_performance_comparison.png
