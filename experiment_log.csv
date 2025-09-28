@@ -1,0 +1,12 @@
+mode,alpha,kappa,L,small_value,operator_strategy,pareto_points,runtime
+Baseline,10,0.05,5,1e-07,swap,559,0.7893719673156738
+MHRE-Agent,18,0.05,5,1e-07,"2opt,random_restart,swap,greedy_add",501,2.246216058731079
+MHRE-Agent,18,0.09,9,1e-06,"swap,random_restart,mutation,greedy_add,2opt",780,4.074495553970337
+MHRE-Agent,18,0.09,5,1e-07,"random_restart,mutation,swap",782,2.507169485092163
+MHRE-Agent,15,0.09,7,1e-06,"mutation,greedy_add,2opt",27,0.7985856533050537
+MHRE-Agent,12,0.05,7,1e-06,"mutation,swap",674,1.3025896549224854
+MHRE-Agent,15,0.075,9,5e-07,"mutation,swap",770,2.386275291442871
+MHRE-Agent,15,0.05,9,5e-07,"random_restart,2opt,greedy_add,swap",649,2.632417678833008
+MHRE-Agent,12,0.09,5,5e-07,"2opt,swap",704,1.7349960803985596
+MHRE-Agent,15,0.075,7,1e-07,"2opt,greedy_add,random_restart,swap",630,2.6294734477996826
+MHRE-Agent,18,0.075,9,1e-07,"random_restart,2opt",29,0.9995529651641846

@@ -1,0 +1,336 @@
+{
+  "success": true,
+  "baseline_results": {
+    "experiment_id": "baseline_1758713942",
+    "total_solutions": 56,
+    "avg_time_per_run": 0.03455348014831543,
+    "total_time": 0.3556504249572754,
+    "mode": "Baseline",
+    "operator_usage": [
+      10,
+      10,
+      14964,
+      12952
+    ],
+    "operator_success": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "status": "SUCCESS",
+    "timestamp": "2025-09-24 12:39:02"
+  },
+  "evolution_results": [
+    {
+      "experiment_id": "mhre_gen_1_1758713942",
+      "generation": 1,
+      "parameters": {
+        "alpha": 15,
+        "kappa": 0.075,
+        "L": 7,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.035688138008117674,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.035688138008117674,
+        "total_time": 0.3709399700164795,
+        "generation": 1,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 20.0,
+        "kappa": 0.1,
+        "L": 9.0,
+        "small_value": 1e-06,
+        "reasoning": "To improve Pareto front coverage, we increase exploration (alpha) to thoroughly search the solution space. A higher alpha value should lead to a more diverse set of solutions. To maintain pressure towards better solutions, we increase adaptive pressure (kappa) slightly, as high values of kappa can help focus the search on the most promising regions. Finally, increasing local search intensity (L) should accelerate convergence speed while maintaining solution diversity.",
+        "operator_strategy": [
+          "swap"
+        ]
+      },
+      "execution_time": 0.3709399700164795,
+      "status": "SUCCESS",
+      "timestamp": "2025-09-24 12:39:48"
+    },
+    {
+      "experiment_id": "mhre_gen_2_1758713988",
+      "generation": 2,
+      "parameters": {
+        "alpha": 20.0,
+        "kappa": 0.1,
+        "L": 9.0,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.06731600761413574,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.06731600761413574,
+        "total_time": 0.6801221370697021,
+        "generation": 2,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 22.5,
+        "kappa": 0.12,
+        "L": 10.5,
+        "small_value": 1e-06,
+        "reasoning": "To improve Pareto front coverage and solution diversity, we increase exploration (alpha) to encourage the algorithm to explore more areas of the search space. We also slightly increase adaptive pressure (kappa) to guide the search towards better solutions. For convergence speed, we moderate local search intensity (L) to strike a balance between exploring new regions and refining existing ones.",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.6801221370697021,
+      "status": "SUCCESS",
+      "timestamp": "2025-09-24 18:08:42"
+    },
+    {
+      "experiment_id": "mhre_gen_3_1758733722",
+      "generation": 3,
+      "parameters": {
+        "alpha": 22.5,
+        "kappa": 0.12,
+        "L": 10.5,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.03498387336730957,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.03498387336730957,
+        "total_time": 0.3498387336730957,
+        "generation": 3,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 20.0,
+        "kappa": 0.1,
+        "L": 11.5,
+        "small_value": 1e-06,
+        "reasoning": "To improve Pareto front coverage and solution diversity, we reduce alpha to increase exploitation, as higher values may lead to premature convergence. We also decrease kappa to relax the fitness pressure and encourage more exploration. Finally, we increase L to intensify local search, which can help in finding a better spread of solutions.",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.3498387336730957,
+      "status": "SUCCESS",
+      "timestamp": "2025-09-24 18:09:37"
+    },
+    {
+      "experiment_id": "mhre_gen_4_1758733777",
+      "generation": 4,
+      "parameters": {
+        "alpha": 20.0,
+        "kappa": 0.1,
+        "L": 11.5,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.03594005107879639,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.03594005107879639,
+        "total_time": 0.3750333786010742,
+        "generation": 4,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 22.5,
+        "kappa": 0.12,
+        "L": 10.0,
+        "small_value": 1e-06,
+        "reasoning": "To achieve better Pareto front coverage and solution diversity, I've increased alpha to allow for more exploration, while keeping kappa moderate to balance fitness pressure. Reducing L slightly will help maintain a good balance between local search intensity and convergence speed.",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.3750333786010742,
+      "status": "SUCCESS",
+      "timestamp": "2025-09-24 18:10:40"
+    },
+    {
+      "experiment_id": "mhre_gen_5_1758733840",
+      "generation": 5,
+      "parameters": {
+        "alpha": 22.5,
+        "kappa": 0.12,
+        "L": 10.0,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.03594183921813965,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.03594183921813965,
+        "total_time": 0.3750457763671875,
+        "generation": 5,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 20.0,
+        "kappa": 0.1,
+        "L": 11.0,
+        "small_value": 1e-06,
+        "reasoning": "To improve Pareto front coverage (1), I reduce alpha to increase exploitation, as higher values may lead to over-exploration. To enhance solution diversity (2), I decrease kappa to reduce fitness pressure and encourage exploration. Finally, to accelerate convergence speed (3), I increase L to intensify local search.",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.3750457763671875,
+      "status": "SUCCESS",
+      "timestamp": "2025-09-24 18:11:17"
+    }
+  ],
+  "total_time": 19935.635466337204,
+  "success_criteria": {
+    "baseline_success": true,
+    "evolution_success": true,
+    "improvement_achieved": false
+  },
+  "success_count": 2
+}

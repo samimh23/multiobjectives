@@ -1,0 +1,39 @@
+
+MHRE vs Baseline Statistical Analysis Report
+=============================================
+
+BASELINE PERFORMANCE:
+- Solutions: 60
+- Hypervolume: 58401828.0000
+- Spread: 1771.7810
+- Uniformity: 0.0189
+- Average Objective 1: 7230.65
+- Average Objective 2: 7345.77
+
+
+BEST MHRE PERFORMANCE (Generation 1):
+- Solutions: 48
+- Hypervolume: 57130169.0000
+- Spread: 1322.5842
+- Uniformity: 0.0266
+- Average Objective 1: 7298.88
+- Average Objective 2: 7300.52
+
+IMPROVEMENTS:
+- Solution Count: -20.0%
+- Hypervolume: -2.2%
+- Spread: -25.4%
+- Uniformity: 40.8%
+
+EVOLUTION ANALYSIS:
+- Generation 1: 48 solutions, HV=57130169.0000
+- Generation 2: 48 solutions, HV=57130169.0000
+- Generation 3: 48 solutions, HV=57130169.0000
+- Generation 4: 48 solutions, HV=57130169.0000
+- Generation 5: 48 solutions, HV=57130169.0000
+
+TRENDS:
+- Solution count trend: Decreasing
+- Hypervolume trend: Decreasing
+- Best generation: 1
+- Consistency: 0.00 (solution count std dev)

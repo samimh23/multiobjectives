@@ -1,0 +1,242 @@
+{
+  "success": true,
+  "baseline_results": {
+    "total_solutions": 56,
+    "avg_time_per_run": 0.03988213539123535,
+    "total_time": 0.404827356338501,
+    "mode": "Baseline"
+  },
+  "evolution_results": [
+    {
+      "generation": 1,
+      "parameters": {
+        "alpha": 15,
+        "kappa": 0.075,
+        "L": 7,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.03648498058319092,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.03648498058319092,
+        "total_time": 0.3728640079498291,
+        "generation": 1
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 10,
+        "kappa": 0.0856948088619693,
+        "L": 7,
+        "small_value": 1e-06,
+        "reasoning": "Adaptive fallback evolution based on performance trends",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.3728640079498291
+    },
+    {
+      "generation": 2,
+      "parameters": {
+        "alpha": 10,
+        "kappa": 0.0856948088619693,
+        "L": 7,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.038063216209411624,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.038063216209411624,
+        "total_time": 0.3836228847503662,
+        "generation": 2
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 11.084186816525241,
+        "kappa": 0.101075174526629,
+        "L": 7,
+        "small_value": 1e-06,
+        "reasoning": "Adaptive fallback evolution based on performance trends",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.3836228847503662
+    },
+    {
+      "generation": 3,
+      "parameters": {
+        "alpha": 11.084186816525241,
+        "kappa": 0.101075174526629,
+        "L": 7,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.036136722564697264,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.036136722564697264,
+        "total_time": 0.36933016777038574,
+        "generation": 3
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 10,
+        "kappa": 0.10929419957038124,
+        "L": 6,
+        "small_value": 1e-06,
+        "reasoning": "Adaptive fallback evolution based on performance trends",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.36933016777038574
+    },
+    {
+      "generation": 4,
+      "parameters": {
+        "alpha": 10,
+        "kappa": 0.10929419957038124,
+        "L": 6,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.03929378986358643,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.03929378986358643,
+        "total_time": 0.3959038257598877,
+        "generation": 4
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 10,
+        "kappa": 0.10648613665511371,
+        "L": 5,
+        "small_value": 1e-06,
+        "reasoning": "Adaptive fallback evolution based on performance trends",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.3959038257598877
+    },
+    {
+      "generation": 5,
+      "parameters": {
+        "alpha": 10,
+        "kappa": 0.10648613665511371,
+        "L": 5,
+        "small_value": 1e-06
+      },
+      "results": {
+        "total_solutions": 56,
+        "avg_time_per_run": 0.037503957748413086,
+        "best_hypervolume": 0.0,
+        "operator_usage": [
+          10,
+          10,
+          14964,
+          12952
+        ],
+        "operator_success": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "performance": {
+        "solution_count": 56,
+        "avg_time": 0.037503957748413086,
+        "total_time": 0.37901782989501953,
+        "generation": 5
+      },
+      "improvement": 0.0,
+      "evolved_params": {
+        "alpha": 10.275282329606506,
+        "kappa": 0.08661044750910478,
+        "L": 7,
+        "small_value": 1e-06,
+        "reasoning": "Adaptive fallback evolution based on performance trends",
+        "operator_strategy": [
+          "swap",
+          "2opt",
+          "greedy_add"
+        ]
+      },
+      "execution_time": 0.37901782989501953
+    }
+  ],
+  "total_time": 2.3075406551361084
+}

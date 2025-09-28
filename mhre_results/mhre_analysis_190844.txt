@@ -1,0 +1,20 @@
+
+MHRE vs Baseline Statistical Analysis Report
+=============================================
+
+BASELINE PERFORMANCE:
+- Solutions: 44
+- Hypervolume: 58992210.0000
+
+BEST MHRE PERFORMANCE:
+- Solutions: 56
+- Generation: 1
+- Solution Improvement: 27.3%
+- Hypervolume Improvement: -2.5%
+
+GENERATION ANALYSIS:
+- Generation 1: 56 solutions, HV=57519279.0000, Improvement=-2.5%
+- Generation 2: 56 solutions, HV=57519279.0000, Improvement=-2.5%
+- Generation 3: 56 solutions, HV=57519279.0000, Improvement=-2.5%
+- Generation 4: 56 solutions, HV=57519279.0000, Improvement=-2.5%
+- Generation 5: 0 solutions, HV=0.0000, Improvement=-100.0%
