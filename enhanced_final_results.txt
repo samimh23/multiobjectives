@@ -1,9 +1,8 @@
-Enhanced Final Results (Updated)
+Enhanced Final Results
 True Reference HV: 97,640,877
 Target HV: 102,522,921
-Best HV Achieved: 98,190,046
+Best HV Achieved: 97,815,565
 Target Achieved: No
-Improvement: 0.56%
-Best Method: Aggressive_Fine_Tuned
-Best Parameters: alpha=30, kappa=0.200, L=10
-Best Strategy: ['swap', '2opt', 'mutation']
+Improvement: 0.18%
+Best Parameters: α=22, κ=0.120, L=12
+Best Strategy: ['swap', '2opt', 'greedy_add', 'mutation']
