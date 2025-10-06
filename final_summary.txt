@@ -1,6 +1,6 @@
 Final Summary
 Reference HV: 97,640,877
-Best HV: 98,546,607
-Improvement: 0.93%
+Best HV: 97,128,236
+Improvement: -0.53%
 Dominance Achieved: No
-Gap to target: 1,047,088
+Gap to target: 2,465,459

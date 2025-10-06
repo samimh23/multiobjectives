@@ -1,0 +1,8 @@
+True Pareto Front Summary for 750-item 2-objective instance
+========================================
+Total points: 3147
+Unique points: 3142
+Duplicates removed: 5
+Pareto-optimal points: 855
+Hypervolume: 891,356,843
+Source file: 7502_Results.txt

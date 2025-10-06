@@ -1,0 +1,8 @@
+True Pareto Front Summary for 250-item 2-objective instance
+========================================
+Total points: 1635
+Unique points: 1624
+Duplicates removed: 11
+Pareto-optimal points: 315
+Hypervolume: 98,522,052
+Source file: 2502_Results.txt
