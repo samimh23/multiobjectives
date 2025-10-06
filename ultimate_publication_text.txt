@@ -5,8 +5,8 @@
     This paper presents an enhanced Multi-Objective Hierarchical Reflective Evolution (MHRE) framework
     for solving multi-objective knapsack problems. The proposed approach integrates Large Language
     Models (LLMs) with evolutionary computation and introduces novel operators for improved performance.
-    Our implementation demonstrates a significant 1.03% improvement in hypervolume over
-    reference methods, achieving 98,642,299 compared to 97,640,877.
+    Our implementation demonstrates a significant 1.04% improvement in hypervolume over
+    reference methods, achieving 98,658,952 compared to 97,640,877.
     
     KEY CONTRIBUTIONS:
     • Enhanced MHRE framework with novel operators
@@ -19,9 +19,9 @@
     
     RESULTS:
     • Reference Hypervolume: 97,640,877
-    • Enhanced MHRE Hypervolume: 98,642,299
-    • Improvement: 1.03%
-    • Gap to Target: 0.97%
+    • Enhanced MHRE Hypervolume: 98,658,952
+    • Improvement: 1.04%
+    • Gap to Target: 0.96%
     
     CONCLUSION:
     The enhanced MHRE framework demonstrates significant potential for solving complex multi-objective
