@@ -1,0 +1,6 @@
+Final Optimized MHRE Summary for 250-item problem
+Reference HV: 98,522,052
+Final Optimized MHRE HV: 98,381,401
+Improvement: -0.14%
+Dominance Achieved: No
+Gap to target: 2,111,092
