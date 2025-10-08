@@ -1,0 +1,7 @@
+Final MHRE-LLM Optimization Summary
+Problem Size: 250 items
+Final Hypervolume: 71,213,947
+Improvement: -27.72%
+Dominance Achieved: False
+Total Time: 231.95s
+Optimization Steps: 6
