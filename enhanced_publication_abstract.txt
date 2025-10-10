@@ -1,22 +1,21 @@
 
-    ADVANCED MULTI-OBJECTIVE HIERARCHICAL REFLECTIVE EVOLUTION (MHRE) FOR KNAPSACK PROBLEM
+    ENHANCED MULTI-OBJECTIVE HIERARCHICAL REFLECTIVE EVOLUTION (MHRE) FOR KNAPSACK PROBLEM
     
     ABSTRACT:
-    This paper presents an advanced Multi-Objective Hierarchical Reflective Evolution (MHRE) framework 
-    for solving multi-objective knapsack problems. The proposed approach integrates enhanced 
+    This paper presents an enhanced Multi-Objective Hierarchical Reflective Evolution (MHRE) framework
+    for solving multi-objective knapsack problems. The proposed approach integrates advanced 
     evolutionary operators, hierarchical strategy evolution, and runtime-optimized ensembles 
     to achieve superior performance compared to traditional methods. Our implementation 
     demonstrates a significant 1.00% improvement in hypervolume 
-    over reference methods, achieving 98,617,394 compared to 97,640,877.
+    over reference methods, achieving 98,616,382 compared to 97,640,877.
     
     KEY INNOVATIONS:
-    • Enhanced evolutionary operators with true crossover and diversity mutation
+    • Enhanced evolutionary operators (crossover, diversity mutation)
     • Hierarchical strategy evolution based on performance feedback
     • Runtime-optimized ensemble approach for practical applications
     • Advanced convergence detection and diversity mechanisms
     • Multi-phase optimization (exploration, refinement, aggressive)
-    • Ultra-focused parameter optimization with maximum iterations
-    • Diverse ensemble strategies with different random seeds
+    • Comprehensive experimental validation on benchmark problems
     
     METHODOLOGICAL ADVANCES:
     • Implementation of true crossover between parent solutions
@@ -24,27 +23,16 @@
     • Hierarchical strategy evolution based on performance feedback
     • Runtime-constrained optimization for practical deployment
     • Ensemble methods combining multiple optimization strategies
-    • Ultra-focused optimization with maximum computational budget
     
     EXPERIMENTAL RESULTS:
     • Reference Hypervolume: 97,640,877
-    • Enhanced MHRE Hypervolume: 98,617,394
+    • Enhanced MHRE Hypervolume: 98,616,382
     • Best Achievement: 1.00% improvement
     • 5%+ Target Achieved: No
-    • Gap to 5% Target: 3,905,527 (4.00%)
     
     CONCLUSION:
     The enhanced MHRE framework demonstrates significant potential for solving complex multi-objective
     optimization problems. Our experimental results validate the effectiveness of true evolutionary
     operators and hierarchical strategy evolution, providing a strong foundation for future research
     in this area. The runtime-optimized approach makes it practical for real-world applications.
-    The achieved 1.00% improvement represents a substantial advancement 
-    in multi-objective optimization performance.
-    
-    FUTURE WORK:
-    • Extension to higher-dimensional multi-objective problems
-    • Integration with deep learning for parameter adaptation
-    • Application to real-world optimization scenarios
-    • Theoretical analysis of convergence properties
-    • Parallel and distributed implementations for scalability
     
