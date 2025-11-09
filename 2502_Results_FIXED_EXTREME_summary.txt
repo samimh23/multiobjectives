@@ -1,0 +1,16 @@
+======================================================================
+LLM-GUIDED MOACP RUN SUMMARY
+======================================================================
+Date & Time: 2025-11-08 20:39:52
+Instance: 250.2.txt
+Total Runs: 10
+Iterations per Run: 100
+Total Execution Time: 74.0s (1.23 min)
+Total LLM Calls: 16
+Average LLM Calls per Run: 1.6
+
+PERTURBATION STATISTICS:
+----------------------------------------------------------------------
+BALANCED_SWAP        :   1 times (6.2%)
+DIVERSITY_JUMP       :  15 times (93.8%)
+======================================================================

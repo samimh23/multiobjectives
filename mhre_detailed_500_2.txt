@@ -1,0 +1,8 @@
+MHRE Optimization Results - 500_2
+==================================================
+Reference HV: 405,522,904
+Optimized HV: 232,896,463
+Improvement: -42.57%
+Pareto Solutions: 3
+Configuration: {'strategy': 'balanced', 'alpha': 40, 'L': 6, 'kappa': 0.2, 'operator_weights': {'swap': 0.3, 'local_search': 0.3, 'mutation': 0.2, 'repair': 0.2}, 'sub_functions': {'local_search': {'swap_prob': 0.5, 'neighborhood_size': 4, 'max_swaps': 2}, 'mutation': {'rate': 0.1, 'strength': 2, 'adaptive': True}, 'repair': {'greedy_ratio': 0.8, 'capacity_margin': 0.9500000000000001}, 'selection': {'elite_ratio': 0.30000000000000004, 'diversity_weight': 0.3}}}
+Times: {'feature_extraction': 0.0010013580322265625, 'configuration': 17.062751054763794, 'optimization': 0.0963277816772461, 'analysis': 0.0009996891021728516}
